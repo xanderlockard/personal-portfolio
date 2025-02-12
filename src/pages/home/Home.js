@@ -20,7 +20,7 @@ const Home = () => {
             boxShadow="md"
         >
             <Card.Header>
-              <span style={{display: 'inline-flex', alignItems: 'center', justifyContent: 'space-around'}}>
+              <span style={{display: 'inline-flex', alignItems: 'center', flexWrap: 'wrap', justifyContent: 'space-around'}}>
                 <Avatar
                     src={'https://avatars.githubusercontent.com/u/181026198?v=4'}
                     name={'Alexander Lockard'}
@@ -31,7 +31,7 @@ const Home = () => {
                     borderWidth="2px"
                     borderRadius="10px"
                 />
-                <Heading style={{ marginLeft: '20px',
+                <Heading style={{ margin: '1rem',
                       fontFamily: 'Courier New'
                  }} fontSize='40px' color={DEFAULT_TEXT_COLOR} size="lg">Alexander Lockard</Heading>
               </span>
