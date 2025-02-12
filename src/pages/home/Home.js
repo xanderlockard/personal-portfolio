@@ -13,7 +13,7 @@ const Home = () => {
         <Card.Root
             width={{ base: "90%", md: "60%" }}
             maxW="1000px"
-            height={{ base: "auto", md: "350px" }}
+            height={{ base: "auto", md: "50%" }}
             borderRadius="15px"
             backgroundColor={BACKGROUND_COLOR}
             variant="elevated"

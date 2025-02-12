@@ -6,7 +6,7 @@ const ExperienceCard = (props) => {
     return (
         <Card.Root
             width={{ base: "90%", md: "60%" }}
-            maxW="1000px"
+            maxW="80%"
             height={{ base: "auto", md: "300px" }}
             borderRadius="15px"
             backgroundColor={BACKGROUND_COLOR}
@@ -25,7 +25,7 @@ const ExperienceCard = (props) => {
                         borderWidth="2px"
                         borderRadius="10px"
                     />
-                    <Box>
+                    <Box padding='0 5%'>
                         <Heading style={{fontFamily:'Courier New'}} color={DEFAULT_TEXT_COLOR} size="lg">{props.positionTitle}</Heading>
                         <Text color={SECONDARY_COLOR} fontSize="md">{props.companyName}</Text>
                     </Box>
